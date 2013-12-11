@@ -1,0 +1,3 @@
+[submodule "img/fugue-icons"]
+	path = img/fugue-icons
+	url = https://github.com/yusukekamiyamane/fugue-icons.git

@@ -1,0 +1,187 @@
+* { -webkit-text-size-adjust: none; }
+
+html {
+	background: url("/img/kyau_bg_1920.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+		 -moz-background-size: cover;
+			-ms-background-size: cover;
+			 -o-background-size: cover;
+					background-size: cover;
+}
+
+#logo_box {
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	width: 100%;
+}
+
+#logo { display: inline-block; }
+
+#footer {
+	bottom: -20px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#search {
+	display: inline-block;
+	margin-bottom: 30px;
+	position: relative;
+	top: 50px;
+}
+
+#info {
+	bottom: 0;
+	color: #313131;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	position: absolute;
+	right: 5px;
+}
+
+#version {
+	bottom: 0;
+	color: #313131;
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	left: 5px;
+	position: absolute;
+}
+
+body {
+	color: rgb(237,236,232);
+	font-family: "Open Sans", sans-serif;
+	position: relative;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+}
+
+.keepcentered {
+	height: 200px;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: -100px;
+	position: absolute;
+	top: 50%;
+	width: 1000px;
+}
+
+.circle {
+	border-radius: 999px;
+	font-size: 20px;
+	height: 100px;
+	line-height: 100px;
+	margin: 20px;
+	overflow: hidden;
+	padding: 30px;
+	position: absolute;
+	top: 100px;
+	vertical-align: middle;
+	width: 100px;
+	-webkit-transition: width 100ms ease, height 100ms ease, left 100ms ease, top 100ms ease;
+		 -moz-transition: width 100ms ease, height 100ms ease, left 100ms ease, top 100ms ease;
+			-ms-transition: width 100ms ease, height 100ms ease, left 100ms ease, top 100ms ease;
+			 -o-transition: width 100ms ease, height 100ms ease, left 100ms ease, top 100ms ease;
+					transition: width 100ms ease, height 100ms ease, left 100ms ease, top 100ms ease;
+}
+
+.circle:hover {
+	border: 3px solid #e4e4e4;
+	height:200px;
+	line-height: 30px;
+	top: 50px;
+	width:200px;
+	z-index: 100;
+}
+
+.circle .img {
+	position: relative;
+	text-align: center;
+	top: 5px;
+}
+
+.circle .txt {
+	position: relative;
+	top: -27px;
+}
+
+.circle hr {
+	border: 0;
+	border-top: 1px solid #edece8;
+	display: block;
+	height: 1px;
+	margin: 8px auto;
+	padding: 0;
+	width: 75%;
+}
+
+.afterhours					{left: 000px;}
+.afterhours:hover		{left: -50px;}
+.common							{left: 200px;}
+.common:hover				{left: 150px;}
+.projects						{left: 400px;}
+.projects:hover			{left: 350px;}
+.server							{left: 600px;}
+.server:hover				{left: 550px;}
+.help								{left: 800px;}
+.help:hover					{left: 750px;}
+
+input { font-family: 'Electrolize', sans-serif; }
+
+input#q {
+	border-radius: 999px;
+	padding: 10px;
+	position:relative;
+	top: 175px;
+	width: 300px;
+	-webkit-transition: 100ms ease;
+		 -moz-transition: 100ms ease;
+			-ms-transition: 100ms ease;
+			 -o-transition: 100ms ease;
+					transition: 100ms ease;
+}
+
+tr,td {
+	padding: 3px;
+	spacing: 3px;
+	-webkit-transition: 400ms ease;
+		 -moz-transition: 400ms ease;
+			-ms-transition: 400ms ease;
+			 -o-transition: 400ms ease;
+					transition: 400ms ease;
+}
+
+tr,td:hover {	background: rgba(216,216,216,0.3); }
+
+input#q:focus {
+	background-color: #f0f0f0;
+	font-size: 18pt;
+	outline: none;
+	padding: 10px;
+	top: 170px;
+	width: 400px;
+}
+
+a:not(#git) {
+	color: rgb(216,216,216);
+	font-size: 12pt;
+	-webkit-transition: 300ms ease;
+		 -moz-transition: 300ms ease;
+			-ms-transition: 300ms ease;
+			 -o-transition: 300ms ease;
+					transition: 300ms ease;
+}
+
+a:hover:not(#git) { text-shadow: 0px 0px 6px rgba(228,228,228,0.95); }
+
+a:link { text-decoration: none; }
+
+a#git { color: #313131; }
+a#git:hover { color: #626262; text-decoration: underline; }
+
+/* vim: ts=2 sw=2 noet
+*/

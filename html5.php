@@ -1,12 +1,15 @@
-<html lang="en">
+<?php header('Content-type: application/xml; charset="utf-8"'); ?>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta charset="utf-8" />
     <title>/home/kyau</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Electrolize:400">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
-    <link rel="stylesheet" href="css/screen.css">
-    <link rel="icon" href="img/fugue-icons/icons/home.png">
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="js/main.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Electrolize:400" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" />
+    <link href="css/html5.css" rel="stylesheet" />
+    <link href="img/fugue-icons/icons/home.png" rel="icon" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/main.js" charset="utf-8"></script>
   </head>
 
   <body onload="onLoad()">
