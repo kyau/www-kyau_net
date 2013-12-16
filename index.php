@@ -16,7 +16,8 @@
           echo "<a href=\"\" onclick=\"hideStats()\">Close</a><br /><br />";
           include_once "php/statusQuery.php";
           $status = new MinecraftServerStatus();
-          $response = $status->getStatus("dark.kyau.net");
+          //$response = $status->getStatus("127.0.0.1");
+          $response = null;
           if (!$response) {
             echo "The Server is offline!";
           } else {

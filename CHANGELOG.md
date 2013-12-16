@@ -1,3 +1,14 @@
+**2013-10-16**  Sean Bruen  *<kyau@kyau.net>*
+
+    Bug fixes:
+    * added file manager directories/files to `.gitignore`
+    * converted background to css gradient (thanks iFargle)
+    * nulled out the minecraft server status for time being
+    * set the google search box to focus on page load
+
+    Version: 0.1
+
+
 **2013-10-11**  Sean Bruen  *<kyau@kyau.net>*
 
     First commit since fork, removed files that will not be needed.

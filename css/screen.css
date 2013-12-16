@@ -1,12 +1,23 @@
 * { -webkit-text-size-adjust: none; }
 
 html {
-	background: url("/img/kyau_bg_1920.png") no-repeat center center fixed;
-	-webkit-background-size: cover;
-		 -moz-background-size: cover;
-			-ms-background-size: cover;
-			 -o-background-size: cover;
-					background-size: cover;
+  /* Old Browsers */
+	background: #eeeeee;
+  /* FF3.6+ */
+	background: -moz-radial-gradient(center, ellipse cover,  #eeeeee 0%, #969696 80%);
+  /* Chrome,Safari4+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 60%, color-stop(0%,#eeeeee), color-stop(100%,#969696));
+  /* Chrome10+,Safari5.1+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #eeeeee 0%,#969696 60%);
+  /* Opera 12+ */
+	background: -o-radial-gradient(center, ellipse cover,  #eeeeee 0%,#969696 60%);
+  /* IE10+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #eeeeee 0%,#969696 60%);
+  /* W3C */
+	background: radial-gradient(ellipse at center,  #eeeeee 0%,#969696 60%);
+  /* IE6-9: Horizontal Gradient */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#969696',GradientType=1 );
+
 }
 
 #logo_box {

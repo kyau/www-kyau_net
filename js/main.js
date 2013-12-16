@@ -8,6 +8,7 @@ function onLoad() {
   updateColors();
   document.styleSheets[1].insertRule('#stats {display:none;}', 0);
   document.getElementById('logo').innerHTML = '<img src="/img/logo_60dpi.png">';
+  document.getElementById("q").focus();
 }
 
 // Update color theme in CSS
