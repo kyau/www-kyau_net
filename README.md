@@ -1,7 +1,7 @@
 ﻿# public\_html — kyau\_net
     Author:  kyau <kyau@kyau.net>
-    Version: 0.1
-    Date:    2013-12-11T08:23:57-0500
+    Version: 0.2
+    Date:    2013-12-18T01:50:28-0500
 
     Copyright (c)  2013  Sean Bruen.
     Permission is granted to copy, distribute and/or modify this document
@@ -25,3 +25,4 @@ it was forked and has been modified to fit my site.
 * Icons from [fugue-icons](https://github.com/yusukekamiyamane/fugue-icons)
 are Copyright (C) Yusuke Kamiyamane<br>Released under Creative
 Commons Attribution 3.0 License.
+* Controller icon is Copyright (C) [Jojo Mendoza](http://www.deleket.com/dockicons.html)

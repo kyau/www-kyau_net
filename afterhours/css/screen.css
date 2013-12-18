@@ -12,14 +12,14 @@ body {
 /* Background canvas
  */
 #bg {
-  background: #eeeeee;
-  background: -moz-radial-gradient(center, ellipse cover,  #eeeeee 0%, #969696 80%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 60%, color-stop(0%,#eeeeee), color-stop(100%,#969696));
-  background: -webkit-radial-gradient(center, ellipse cover,  #eeeeee 0%,#969696 60%);
-  background: -o-radial-gradient(center, ellipse cover,  #eeeeee 0%,#969696 60%);
-  background: -ms-radial-gradient(center, ellipse cover,  #eeeeee 0%,#969696 60%);
-  background: radial-gradient(ellipse at center,  #eeeeee 0%,#969696 60%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#969696',GradientType=1 );
+  background: #696969;
+  background: -moz-radial-gradient(center, ellipse cover,  #696969 0%, #434343 80%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 60%, color-stop(0%,#696969), color-stop(100%,#434343));
+  background: -webkit-radial-gradient(center, ellipse cover,  #696969 0%,#434343 60%);
+  background: -o-radial-gradient(center, ellipse cover,  #696969 0%,#434343 60%);
+  background: -ms-radial-gradient(center, ellipse cover,  #696969 0%,#434343 60%);
+  background: radial-gradient(ellipse at center,  #696969 0%,#434343 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696969', endColorstr='#434343',GradientType=1 );
   height: 100%;
   overflow: hidden;
   position: absolute;
@@ -30,7 +30,6 @@ body {
  */
 #info {
   bottom: 10px;
-	color: rgba(49,49,49,1);
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -39,21 +38,20 @@ body {
 }
 #version {
   bottom: 10px;
-	color: rgba(49,49,49,1);
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 600;
   left: 15px;
   position: absolute;
 }
-#version a { color: rgba(49,49,49,1); }
-#version a:hover { color: rgba(98,98,98,1); text-decoration: underline; }
+#version a { color: rgba(200,200,200,1); }
+#version a:hover { color: rgba(160,160,160,1); text-decoration: underline; }
 /* Logo
  */
 #logo {
   position: absolute;
   text-align: center;
-  top: 34%;
+  top: 40%;
   width: 100%;
 }
 #logo img {
@@ -65,7 +63,7 @@ body {
 #toolbar {
   margin: 0 auto;
   position: relative;
-  width: 1200px;
+  width: 700px;
   top: -120px;
 }
 .circle {
@@ -132,20 +130,14 @@ body {
   font-weight: normal;
   line-height: 14pt;
 }
-.afterhours { left: 0px; }
-.afterhours:hover { left: -50px; }
-.afterhours.circle:hover:before { content: url('/img/afterhours.png'); }
-.stuff { left: 250px; }
-.stuff:hover { left: 200px; }
-.stuff.circle:hover:before { content: url('/img/stuff.png'); }
-.projects { left: 500px; }
-.projects:hover { left: 450px; }
-.projects.circle:hover:before { content: url('/img/projects.png'); }
-.server { left: 750px; }
-.server:hover { left: 700px; }
-.server.circle:hover:before { content: url('/img/server.png'); }
-.status { left: 1000px; }
-.status:hover { left: 950px; }
+.minecraft { left: 0px; }
+.minecraft:hover { left: -50px; }
+.minecraft.circle:hover:before { content: url('/img/minecraft2.png'); }
+.games { left: 250px; }
+.games:hover { left: 200px; }
+.games.circle:hover:before { content: url('/img/games.png'); }
+.status { left: 500px; }
+.status:hover { left: 450px; }
 .status.circle:hover:before { content: url('/img/status.png'); }
 /* vim: ts=2 sw=2
  */
