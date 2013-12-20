@@ -1,6 +1,7 @@
 // Circle color themes
 possible_colors = ['313131'];
-// Randomly choose a color
+
+// If multiple possible colors, randomly choose one
 var color = '#' + possible_colors[Math.floor(Math.random() * possible_colors.length)];
 
 // Update color theme in CSS

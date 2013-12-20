@@ -39,92 +39,6 @@
         <a class="lnk" href="http://dark.kyau.net:9091/transmission/web/">transmission</a><br />
         <a class="lnk" href="https://dark.kyau.net:6697">znc</a><br />
       </div>
-      <div class="status circle">
-        <img alt="Status" src="img/status.png" /><span>Status</span>
-        <p></p>
-        <?php
-          // Minecraft status
-          $connection = @fsockopen('dark.kyau.net', 25565);
-          if ($connection) {
-            echo '<a href="http://kyau.net/afterhours/">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="74" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" style="fill:#5dce33;" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">mcpc+</text>
-        </svg></a><br />';
-            fclose($connection);
-          } else {
-            echo '<a href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="74" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" fill="rgba(190,25,25,1)" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">mcpc+</text>
-        </svg></a><br />';
-          }
-          // Murmur status
-          $connection = @fsockopen('dark.kyau.net', 64738);
-          if ($connection) {
-            echo '<a href="mumble://dark.kyau.net:64738/?version=1.2.0">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="86" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" style="fill:#5dce33;" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">murmur</text>
-        </svg></a><br />';
-            fclose($connection);
-          } else {
-            echo '<a href="mumble://dark.kyau.net:64738/?version=1.2.0">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="86" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" fill="rgba(190,25,25,1)" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">murmur</text>
-        </svg></a><br />';
-          }
-          // SQL status
-          $connection = @fsockopen('dark.kyau.net', 3306);
-          if ($connection) {
-            echo '<a href="http://dark.kyau.net/sql/">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" style="fill:#5dce33;" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">sql</text>
-        </svg></a><br />';
-            fclose($connection);
-          } else {
-            echo '<a href="http://dark.kyau.net/sql/">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" fill="rgba(190,25,25,1)" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">sql</text>
-        </svg></a><br />';
-          }
-          // WWW1 status
-          $connection = @fsockopen('dark.kyau.net', 80);
-          if ($connection) {
-            echo '<a href="http://kyau.net/">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="69" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" style="fill:#5dce33;" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">www1</text>
-        </svg></a> ';
-            fclose($connection);
-          } else {
-            echo '<a href="http://kyau.net/">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="69" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" fill="rgba(190,25,25,1)" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">www1</text>
-        </svg></a> ';
-          }
-          // WWW2 status
-          $connection = @fsockopen('kyau.org', 80);
-          if ($connection) {
-            echo '<a href="http://kyau.org/">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="72" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" style="fill:#5dce33;" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">www2</text>
-        </svg></a><br />';
-            fclose($connection);
-          } else {
-            echo '<a href="http://kyau.org/">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="72" height="14">
-          <rect x="5" y="3" height="10" width="10" rx="3" ry="3" fill="rgba(190,25,25,1)" />
-          <text dy=".75em" x="22" y="0" fill="rgba(216,216,216,1)">www2</text>
-        </svg></a><br />';
-          }
-        ?>
-      </div>
       </div>
       <div id="logo"><img alt="AfterHours Logo" src="img/logo.png" /></div>
       <div id="info"></div>
@@ -132,7 +46,7 @@
       <?php
         exec('git rev-parse --short HEAD', $output);
         print $_SERVER['SERVER_SOFTWARE']." PHP/".phpversion().
-          ' github/<a href="https://github.com/kyau/www-kyau_net">0.1-'.
+          ' github/<a href="https://github.com/kyau/www-kyau_net">0.3-'.
           $output[0]."</a>";
       ?>
       </div>

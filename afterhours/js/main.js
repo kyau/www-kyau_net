@@ -31,6 +31,18 @@ $(function() {
     });
 });
 
+
+$(function(){
+  $('#a_mods').click(function(){
+        $('div#mods').toggle();
+  });
+});
+$(function(){
+  $('div.close').click(function(){
+        $(this).parent().toggle();
+  });
+});
+
 // jQuery : On page load
 $(window).load(function(){
   // Circle colors

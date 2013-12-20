@@ -1,3 +1,17 @@
+**2013-10-20**  Sean Bruen  *<kyau@kyau.net>*
+
+    Bug Fixes:
+    * halved the size of status icons
+    * adjusted layout, removed status circle on main page
+    * version display updated
+    AfterHours:
+    * mod list added and complete
+    * added minecraft query script
+    * player icons added for current players
+
+    Version: 0.3
+
+
 **2013-10-18**  Sean Bruen  *<kyau@kyau.net>*
 
     Complete refactor into HTML5:

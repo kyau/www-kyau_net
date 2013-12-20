@@ -65,7 +65,8 @@ body {
 #toolbar {
   margin: 0 auto;
   position: relative;
-  width: 1200px;
+/*  width: 1200px; */
+  width: 960px;
   top: -120px;
 }
 .circle {

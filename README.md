@@ -26,3 +26,5 @@ it was forked and has been modified to fit my site.
 are Copyright (C) Yusuke Kamiyamane<br>Released under Creative
 Commons Attribution 3.0 License.
 * Controller icon is Copyright (C) [Jojo Mendoza](http://www.deleket.com/dockicons.html)
+* PHP-Minecraft-Query by [xPaw](https://github.com/xPaw/PHP-Minecraft-Query)<br />Released under Creative Commons
+Attribution-NonCommercial-ShareAlike 3.0 Unported License.
