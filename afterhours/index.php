@@ -20,7 +20,7 @@
         <p></p>
         <p style="font-size:10pt;line-height:12pt;">AfterHours is a white-listed modded minecraft server similar to FTB or Tekkit.</p>
         <a class="lnk" href="http://kyau.net/files/">download</a><br />
-        <a class="lnk" id="a_mods" href="#">mod list</a><br />
+        <a class="lnk" href="https://github.com/kyau/afterhours">modpack</a><br />
         <a class="lnk" id="a_rules" href="#">rules</a><br />
       </div>
       <div class="games circle">
@@ -73,86 +73,6 @@
       </div>
       </div>
       <div id="logo"><img alt="AfterHours Logo" src="/img/logo-afterhours.png" /></div>
-      <div id="mods">
-        <div id="mods_scroll">
-        <h1>Minecraft Mod List</h1>
-        <a class="youtube" href="http://www.youtube.com/playlist?list=PLN3KTOY1BUHPQQ-46pgQi5b3g0lEMiaVb" title="YouTube Mod Spotlight Playlist"><img align="center" alt="YouTube Mod Spotlight Playlist" src="https://s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" />AfterHours Mod Spotlight Playlist</a><br /><br />
-        <article>
-          <a href="http://www.minecraftforum.net/topic/682821-">Additional Buildcraft Objects</a><br />
-          <a href="http://atomicstryker.net/advancedmachines.html">Advanced Machines</a><br />
-          <a href="http://forum.industrial-craft.net/index.php?page=Thread&threadID=3291">Advanced Solar Panels</a><br />
-          <a href="http://www.minecraftforum.net/topic/1961353-">Agriculture</a><br />
-          <a href="http://www.minecraftforum.net/topic/1932156-">Alternate Terrain Generation</a><br />
-          <a href="http://ae-mod.info/">Applied Energistics</a><br />
-          <a href="http://www.minecraftforum.net/topic/2028696-">Ars Magica 2</a><br/>
-          <a href="http://www.minecraftforum.net/topic/1492661-">Backpacks</a><br />
-          <a href="http://www.bibliocraftmod.com/">BiblioCraft</a><br />
-          <a href="http://www.bibliocraftmod.com/?page_id=50#bibliowoods">BiblioWoods (Biomes 'O Plenty)</a><br />
-          <a href="http://www.bibliocraftmod.com/?page_id=50#bibliowoods">BiblioWoods (Forestry)</a><br />
-          <a href="http://www.bibliocraftmod.com/?page_id=50#bibliowoods">BiblioWoods (Natura)</a><br />
-          <a href="http://www.minecraftforge.net/forum/index.php/topic,13244.0.html">Biomes 'O Plenty</a><br />
-          <a href="http://www.mod-buildcraft.com/">Buildcraft</a><br />
-          <a href="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/">ChargePads</a><br />
-          <a href="http://www.minecraftforum.net/topic/909223-">ChickenChunks</a><br />
-          <a href="http://www.computercraft.info/">ComputerCraft</a><br />
-          <a href="http://www.minecraftforum.net/topic/1253666-">Creeper Collateral</a><br />
-          <a href="http://www.minecraftforum.net/topic/1686840-">DartCraft</a><br />
-          <a href="http://ichun.us/mods/death-counter/">Death Counter</a><br />
-          <a href="http://www.minecraftforum.net/topic/1253666-">denPipes</a><br />
-          <a href="http://www.minecraftforum.net/topic/909223-">EnderStorage</a><br />
-          <a href="http://www.minecraftforum.net/topic/1776056-">Extra Utilities</a><br />
-          <a href="http://www.minecraftforum.net/topic/1351802-">Factorization</a><br />
-          <a href="http://www.minecraftforum.net/topic/1298016-">Fancy Fences</a><br />
-          <a href="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/">FlatSigns</a><br />
-          <a href="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/">FinndusFillies</a><br />
-          <a href="http://forestry.sengir.net/">Forestry</a><br />
-          <a href="http://micdoodle8.com/mods/galacticraft">Galacticraft</a><br />
-          <a href="http://www.minecraftforum.net/topic/1253666-">GateCopy</a><br />
-          <a href="http://forum.industrial-craft.net/index.php?page=Thread&threadID=6915">Gravitation Suite</a><br />
-          <a href="http://ichun.us/mods/gravity-gun/">Gravity Gun</a><br />
-          <a href="http://ichun.us/mods/hats/">Hats</a><br />
-          <a href="http://ichun.us/mods/hat-stand/">Hat Stand</a><br />
-          <a href="http://www.industrial-craft.net/">IndustrialCraft2</a><br />
-          <a href="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/">InfiniBows</a><br />
-          <a href="http://www.minecraftforum.net/topic/1720872-">Inventory Tweaks</a><br />
-          <a href="http://www.minecraftforum.net/topic/981855-">IronChests2</a><br />
-          <a href="http://www.minecraftforum.net/topic/2182366-">JABBA</a><br />
-          <a href="http://www.minecraftforum.net/topic/1831791-">LogisticsPipes</a><br />
-          <a href="http://forestry.sengir.net/forum/viewtopic.php?id=17">Magic Bees</a><br />
-          <a href="http://www.minecraftforum.net/topic/2016680-">MineFactory Reloaded</a><br />
-          <a href="http://universalelectricity.com/mffs/">Modular Force Field System</a><br />
-          <a href="http://machinemuse.net/">Modular Powersuits</a><br />
-          <a href="http://binarymage.com/">Mystcraft</a><br />
-          <a href="http://www.minecraftforum.net/topic/909223-">NotEnoughItems</a><br />
-          <a href="http://forum.industrial-craft.net/index.php?page=Thread&threadID=5915">Nuclear Control</a><br />
-          <a href="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/">Obsidian Pressure Plates</a><br />
-          <a href="http://www.openmods.info/openblocks/">OpenBlocks</a><br />
-          <a href="http://www.openperipheral.info/openperipheral/">OpenPeripheral</a><br />
-          <a href="http://www.minecraftforum.net/topic/2104497-">Opis</a><br />
-          <a href="http://www.minecraftforum.net/topic/1253666-">Plugins for Forestry</a><br />
-          <a href="http://ichun.us/mods/portal-gun/">Portal Gun</a><br />
-          <a href="http://projectred.endermedia.org/">Project: Red</a><br />
-          <a href="http://qcraft.org/">qCraft</a><br />
-          <a href="http://www.railcraft.info/">Railcraft</a><br />
-          <a href="http://teamcofh.com/">Redstone Arsenal</a><br />
-          <a href="http://www.minecraftforum.net/topic/546192-">SecretRoomsMod</a><br />
-          <a href="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/">Switches</a><br />
-          <a href="http://www.minecraftforum.net/topic/2011841-">Thaumcraft</a><br />
-          <a href="http://www.minecraftforum.net/topic/1813058-">Thaumic Tinkerer</a><br />
-          <a href="http://teamcofh.com/">Thermal Expansion</a><br />
-          <a href="http://www.minecraftforum.net/topic/1659892-">Tinkers' Construct</a><br />
-          <a href="http://www.minecraftforum.net/topic/909223-">Translocators</a><br />
-          <a href="http://www.minecraftforum.net/topic/561673-">Twilight Forest</a><br />
-          <a href="http://universalelectricity.com/">Universal Electricity Core</a><br />
-          <a href="http://www.minecraftforum.net/topic/1551715-">XACT</a><br />
-          <a href="http://www.minecraftforum.net/topic/1846244-">Waila</a><br />
-          <a href="http://www.minecraftforum.net/topic/909223-">Wireless Redstone</a><br />
-        </article>
-        </div>
-        <div class="close">X</div>
-        <img class="up" src="/img/fugue-icons/icons/arrow-090.png" />
-        <img class="down" src="/img/fugue-icons/icons/arrow-270.png" />
-      </div>
       <div id="rules">
         <div id="rules_scroll">
         <h1>Minecraft Server Rules</h1>
@@ -204,7 +124,7 @@
         $timer = Number_Format(MicroTime(true) - $timer, 4, '.', '');
         if(($info = $query->GetInfo()) !== false) {
           $software = split(' ', $info['Software']);
-          $version = shell_exec("cat ~/afterhours/start.sh | grep '^VERSION=' | sed -e \"s/VERSION\='//\" -e \"s/'//\"");
+          $version = shell_exec("cat ~/bin/minecraft | grep '^VERSION=' | sed -e \"s/VERSION\='//\" -e \"s/'//\"");
           $mcpc = $software[0].' '.$version;
           $plugins = $info['Plugins'];
           asort($plugins, SORT_NATURAL | SORT_FLAG_CASE);

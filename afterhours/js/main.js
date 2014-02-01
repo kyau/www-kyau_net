@@ -40,14 +40,7 @@ $(function() {
 
 // jQuery : Toggle mod list/rules and handle the closing of these windows
 $(function(){
-  $('#a_mods').click(function(){
-        $('div#rules').css('display','none');
-        $('div#mods').toggle();
-  });
-});
-$(function(){
   $('#a_rules').click(function(){
-        $('div#mods').css('display','none');
         $('div#rules').toggle();
   });
 });
@@ -60,14 +53,8 @@ $(function(){
 // jQuery : Keybindings
 $(document).keyup(function(e){
   if(e.keyCode === 27) {
-    $('div#mods').css('display','none');
+    $('div#announce').css('display','none');
     $('div#rules').css('display','none');
-  } else if(e.keyCode === 77) {
-    $('div#rules').css('display','none');
-    $('div#mods').toggle();
-  } else if(e.keyCode === 82) {
-    $('div#mods').css('display','none');
-    $('div#rules').toggle();
   }
 });
 
