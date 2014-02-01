@@ -94,12 +94,12 @@
         &#xffed; 128 blocks: minimum build distance to not require permission from your neighboors<br />
         &#xffed; Try to make everything you build aesthetically pleasing, we understand
         not everyone is an artist merely try your best<br />
-        &#xffed; All major/automated mining operations are to be done in the Deep Dark or on Mining World Alpha/Beta<br />
-        &#xffed; Personal Mystcraft ages available upon request (limit 1 per person)<br />
-        &#xffed; Mystcraft restrictions: no dense ores / no massively unstable worlds</list></p>
+        &#xffed; All major/automated mining operations are to be done in Mining World Alpha/Beta<br />
+        &#xffed; Random ages will be created dependent on server progression<br />
         <p><span>Banned Items</span><br /><list>
         Industrialcraft2 &#151; Nuke<br />
         Mystcraft &#151; Book Binder (OP only)<br />
+        OpenBlocks &#151; Build Helper<br />
         Railcraft &#151; Anchor Cart, Primer Track, TNT Cart, World Anchor</list></p>
         </div>
         <div class="close">X</div>
