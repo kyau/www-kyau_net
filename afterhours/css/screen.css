@@ -28,24 +28,53 @@ body {
 }
 /* Statusbar
  */
-#info {
+#server1,#server2 {
   bottom: 10px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
+  cursor: default;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 10pt;
   position: absolute;
-  right: 15px;
 }
-#version {
-  bottom: 10px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
+#server1 { left: 42px;cursor:pointer; }
+#server2 { right: 15px;text-align: right;width: 200px; }
+#server2 img { position: relative;top: 2px; }
+#plugins {
+  background-color: rgba(49,49,49,1);
+  border: 3px solid rgba(41,41,41,0.9);
+  bottom: 35px;
+  display: none;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 10pt;
+  left: 70px;
+  padding: 5px 8px;
+  position: absolute;
+  box-shadow: 0px 0px 15px rgba(19,19,19,0.8);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: 300ms ease;
+  -moz-transition: 300ms ease;
+  -ms-transition: 300ms ease;
+  -o-transition: 300ms ease;
+  transition: 300ms ease;
+}
+#map {
+  bottom: 3px;
+  position: absolute;
   left: 15px;
-  position: absolute;
 }
-#version a { color: rgba(200,200,200,1); }
-#version a:hover { color: rgba(160,160,160,1); text-decoration: underline; }
+#map a {
+  color: rgba(216,216,216,1);
+  font-size: 12pt;
+  -webkit-transition: 300ms ease;
+  -moz-transition: 300ms ease;
+  -ms-transition: 300ms ease;
+  -o-transition: 300ms ease;
+  transition: 300ms ease;
+}
+#map a:hover { text-shadow: 0 0 6px rgba(228,228,228,0.95); }
 /* Logo
  */
 #logo {
@@ -68,6 +97,7 @@ body {
 }
 .circle {
   border-radius: 999px;
+  cursor: default;
   font-family: "Electrolize", sans-serif;
   font-size: 20px;
   height: 100px;
@@ -132,25 +162,13 @@ body {
 }
 .minecraft { left: 0px; }
 .minecraft:hover { left: -50px; }
-.minecraft.circle:hover:before { content: url('/img/minecraft2.png'); }
+.minecraft.circle:hover:before { content: url('/img/steve.png'); }
 .games { left: 250px; }
 .games:hover { left: 200px; }
 .games.circle:hover:before { content: url('/img/games.png'); }
 .status { left: 500px; }
 .status:hover { left: 450px; }
 .status.circle:hover:before { content: url('/img/status.png'); }
-/* Online Players
- */
-#players {
-  bottom: 2px;
-  font-size: 10pt;
-  left: 25%;
-  position: absolute;
-  right: 25%;
-  text-align: center;
-  width: 50%;
-}
-#players img { cursor: pointer }
 /* Mods
  */
 #mods {
@@ -158,9 +176,11 @@ body {
   border: 8px solid rgba(34,41,70,0.8);
   bottom: 20%;
   color: rgba(140,139,137,1);
+  font-family: 'Electrolize', sans-serif;
   display: none;
   height: 60%;
   margin: auto;
+  overflow-y: hidden;
   padding: 15px 20px;
   position: relative;
   text-align: center;
@@ -171,15 +191,8 @@ body {
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
-#mods a {
-  color: rgba(58,87,215,1);
-  font-weight: bold;
-  -webkit-transition: 300ms ease;
-  -moz-transition: 300ms ease;
-  -ms-transition: 300ms ease;
-  -o-transition: 300ms ease;
-  transition: 300ms ease;
-}
+#mods #mods_scroll { position: relative;height: 100%;width: 100%;overflow-y: hidden;top: 0;  }
+#mods a { color: rgba(58,87,215,1); }
 #mods a:hover { text-decoration: underline; }
 #mods .close {
   color: #696969;
@@ -193,28 +206,98 @@ body {
 }
 #mods em { color: rgba(128,128,128,1); }
 #mods hr {
-    border: none;
-    height: 1px;
-    background: rgba(52,52,52,1);
-    background: -webkit-gradient(radial, 0 0, 0, 55% 55%, 350, from(rgba(52,52,52,1)), to(rgba(9,12,25,1)));
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  height: 1px;
+  background: rgba(52,52,52,1);
+  background: -webkit-gradient(radial, 0 0, 0, 55% 55%, 350, from(rgba(52,52,52,1)), to(rgba(9,12,25,1)));
 }
 #mods p { font-size: 10pt;text-align: left; }
-#mods p#m {
-  height: 55%;
-  overflow-y: scroll;
-}
-#mods p img {
+#mods a.youtube { color: rgba(255,170,62,1); }
+#mods a.youtube img {
+  padding-right: 5px;
   position: relative;
-  top: 4px;
+  top: -2px;
 }
 #mods h1 {
   color: rgba(236,236,236,1);
-  font-size: 14pt;
+  font-size: 16pt;
   font-weight: bold;
   text-align: center;
   text-shadow: 0 0 6px rgba(19,19,19,0.8);
 }
-#mods span { color: rgba(255,170,62,1); }
-#mods span.group { color: rgba(128,128,128,1);font-style: italic; }
+#mods img.up,#mods img.down {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0.4;
+  right: 2px;
+}
+#mods img.up { bottom: 26px; }
+#mods img.down { bottom: 5px; }
+#mods img.up:hover,#mods img.down:hover { opacity: 0.6; }
+/* Rules
+ */
+#rules {
+  background-color: rgba(9,12,25,1);
+  border: 8px solid rgba(34,41,70,0.8);
+  bottom: 20%;
+  color: rgba(140,139,137,1);
+  display: none;
+  font-family: 'Electrolize', sans-serif;
+  height: 60%;
+  margin: auto;
+  overflow-y: hidden;
+  padding: 15px 20px;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  width: 30%;
+  box-shadow: 0px 0px 15px rgba(19,19,19,0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+#rules #rules_scroll { position: relative;height: 100%;width: 100%;overflow-y: hidden;top: 0;  }
+#rules a { color: rgba(180,180,180,1); }
+#rules a:hover { text-decoration: underline; }
+#rules .close {
+  color: #696969;
+  cursor: pointer;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+#mods article,#rules article {
+  font-size: 12pt;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
+}
+#rules p { font-size: 12pt; }
+#rules p span { color: rgba(255,170,62,1);font-weight: bold; }
+#rules h1 {
+  color: rgba(236,236,236,1);
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(19,19,19,0.8);
+}
+#rules list { font-size: 10pt; }
+#rules img.up,#rules img.down {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0.4;
+  right: 2px;
+}
+#rules img.up { bottom: 26px; }
+#rules img.down { bottom: 5px; }
+#rules img.up:hover,#rules img.down:hover { opacity: 0.6; }
 /* vim: ts=2 sw=2
  */

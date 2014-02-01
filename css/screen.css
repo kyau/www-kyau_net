@@ -31,18 +31,18 @@ body {
 #info {
   bottom: 10px;
 	color: rgba(49,49,49,1);
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
+  cursor: default;
+  font-family: "Electrolize", sans-serif;
+  font-size: 10pt;
   position: absolute;
   right: 15px;
 }
 #version {
   bottom: 10px;
 	color: rgba(49,49,49,1);
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
+  cursor: default;
+  font-family: "Electrolize", sans-serif;
+  font-size: 10pt;
   left: 15px;
   position: absolute;
 }
@@ -71,6 +71,7 @@ body {
 }
 .circle {
   border-radius: 999px;
+  cursor: default;
   font-family: "Electrolize", sans-serif;
   font-size: 20px;
   height: 100px;

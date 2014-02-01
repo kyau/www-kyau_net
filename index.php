@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    <?php include_once("php/analytics.php") ?>
     <div id="bg">
       <div id="toolbar">
       <div class="afterhours circle">
