@@ -26,11 +26,10 @@
       <div class="games circle">
         <img alt="Games" src="/img/games.png" /><span>Games</span>
         <p></p>
-        <a class="lnk" href="#">link</a><br />
-        <a class="lnk" href="#">link</a><br />
-        <a class="lnk" href="#">link</a><br />
-        <a class="lnk" href="#">link</a><br />
-        <a class="lnk" href="#">link</a><br />
+        <a class="lnk" href="http://steamcommunity.com/groups/afterhours-gaming">Counter-Strike: GO</a><br />
+        <a class="lnk" href="http://steamcommunity.com/groups/afterhours-gaming">Path of Exile</a><br />
+        <a class="lnk" href="#">Star Citizen</a><br />
+        <a class="lnk" href="http://steamcommunity.com/groups/afterhours-gaming">Starbound</a><br />
       </div>
       <div class="status circle">
         <img alt="Status" src="/img/status.png" /><span>Status</span>
@@ -73,6 +72,10 @@
       </div>
       </div>
       <div id="logo"><img alt="AfterHours Logo" src="/img/logo-afterhours.png" /></div>
+      <div id="maintenance">
+        <h1>Server Maintenance</h1>
+        The server is currently undergoing maintenance, please check back later!
+      </div>
       <div id="rules">
         <div id="rules_scroll">
         <h1>Minecraft Server Rules</h1>
@@ -91,7 +94,7 @@
         &#xffed; Repeated promotion of religious or political discussions<br />
         &#xffed; Advertising or promoting other servers/communities</list></p>
         <p><span>Building Specs</span><br /><list>
-        &#xffed; 128 blocks: minimum build distance to not require permission from your neighboors<br />
+        &#xffed; 256 blocks: minimum build distance to not require permission from your neighboors<br />
         &#xffed; Try to make everything you build aesthetically pleasing, we understand
         not everyone is an artist merely try your best<br />
         &#xffed; All major/automated mining operations are to be done in Mining World Alpha/Beta<br />

@@ -26,7 +26,7 @@
         <a class="lnk" href="https://www.dropbox.com/sh/8jxy9hxzhdfng8j/OUHX6IgICi">dropbox</a><br />
         <a class="lnk" href="https://gist.github.com/kyau">gist</a><br />
         <a class="lnk" href="https://github.com/kyau">github</a><br />
-        <a class="lnk" href="http://kyau.org/">wiki</a><br />
+        <a class="lnk" href="http://kyau.net/wiki/">wiki</a><br />
       </div>
       <div class="projects circle">
         <img alt="Projects" src="img/projects.png" /><span>Projects</span>
