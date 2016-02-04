@@ -134,9 +134,9 @@ body {
   font-weight: normal;
   line-height: 14pt;
 }
-.afterhours { left: 0px; }
-.afterhours:hover { left: -50px; }
-.afterhours.circle:hover:before { content: url('/img/afterhours.png'); }
+.fpv { left: 0px; }
+.fpv:hover { left: -50px; }
+.fpv.circle:hover:before { content: url('/img/fpv.png'); }
 .stuff { left: 250px; }
 .stuff:hover { left: 200px; }
 .stuff.circle:hover:before { content: url('/img/stuff.png'); }

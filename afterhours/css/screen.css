@@ -45,7 +45,7 @@ body {
   display: none;
   font-family: 'Electrolize', sans-serif;
   font-size: 10pt;
-  left: 70px;
+  left: 42px;
   padding: 5px 8px;
   position: absolute;
   box-shadow: 0px 0px 15px rgba(19,19,19,0.8);
@@ -80,12 +80,22 @@ body {
 #logo {
   position: absolute;
   text-align: center;
-  top: 40%;
+  top: 42%;
   width: 100%;
 }
-#logo img {
+#logo img.logo {
   margin: 0 auto;
-  width: 600px;
+  width: 612px;
+}
+#sneak-peak {
+  position: relative;
+  top: 75px;
+  margin: 0 auto;
+}
+#sneak-peak img {
+  border: 1px solid #aaa;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  margin:0 5px;
 }
 /* Circles (Toolbar)
  */
@@ -134,6 +144,9 @@ body {
   width: 50px;
   z-index:-1;
 }
+.minecraft:hover:before {
+  opacity: 0.8;
+}
 .circle a {
   color: rgba(216,216,216,1);
   font-size: 12pt;
@@ -162,7 +175,7 @@ body {
 }
 .minecraft { left: 0px; }
 .minecraft:hover { left: -50px; }
-.minecraft.circle:hover:before { content: url('/img/steve.png'); }
+.minecraft.circle:hover:before { content: url('/img/minecraft.png'); }
 .games { left: 250px; }
 .games:hover { left: 200px; }
 .games.circle:hover:before { content: url('/img/games.png'); }
@@ -200,6 +213,7 @@ body {
 }
 /* Rules
  */
+#a_rules { cursor:pointer; }
 #rules {
   background-color: rgba(9,12,25,1);
   border: 8px solid rgba(34,41,70,0.8);
@@ -261,5 +275,41 @@ body {
 #rules img.up { bottom: 26px; }
 #rules img.down { bottom: 5px; }
 #rules img.up:hover,#rules img.down:hover { opacity: 0.6; }
+/* Final Countdown
+ */
+#final-countdown {
+  font-family: "Orbitron", monospace;
+  height: 50px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -4px;
+}
+#final-countdown div {
+  border-radius: 3px;
+  background: #202020;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  text-align: center;
+  position: relative;
+  height: 50px;
+  width: 45px;
+  display: inline-block;
+}
+#final-countdown div span.time {
+  color: #f8f8f8;
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 15px;
+}
+#final-countdown div span.time span.dur {
+  position: relative;
+  top:-6px;
+  font-size: 9pt;
+}
 /* vim: ts=2 sw=2
  */
